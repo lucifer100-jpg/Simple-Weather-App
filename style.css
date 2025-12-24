@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background 0.5s ease;
+}
+
+.app {
+  background: gainsboro;
+  padding: 25px;
+  width: 330px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+button {
+  background: darkslategrey;
+  color: khaki;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background: lightgray;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.cold { background: hsl(219, 63%, 69%); }
+.hot { background: orange; }
+.rainy { background: #474e63; }
+.mild { background: lightgrey; }
